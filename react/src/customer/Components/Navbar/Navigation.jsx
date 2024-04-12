@@ -338,7 +338,7 @@ export default function Navigation() {
                                             aria-hidden="true"
                                             className="mt-1"
                                           >
-                                            Shop now
+                                            {/* Shop now */}
                                           </p>
                                         </div>
                                       ))}
@@ -452,14 +452,17 @@ export default function Navigation() {
                       </Menu>
                     </div>
                   ) : (
-                    <Button
-                      onClick={handleOpen}
-                      className="text-sm font-medium text-gray-700 hover:text-gray-800"
-                    >
-                      Signin
-                    </Button>
-                  )}
+                      <Button
+                        onClick={handleOpen}
+                        className="text-sm font-medium text-gray-700 hover:text-gray-800"
+                      >
+                        Signin
+                      </Button>
+                    )}
                 </div>
+                <Button onClick={()=> navigate("/EmployeeForm")} className="text-sm font-medium text-gray-700 hover:text-gray-800">
+                Register For Employment
+               </Button>
 
                 {/* Search */}
                 <div className="flex lg:ml-6">

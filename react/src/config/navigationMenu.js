@@ -2,123 +2,168 @@ export const navigation = {
     categories: [
       {
         id: 'women',
-        name: 'Women',
+        name: 'Services',
         featured: [
           {
-            name: 'New Arrivals',
+            name: '',
             href: '/',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+            imageSrc: 'https://t3.ftcdn.net/jpg/01/06/12/68/360_F_106126874_6Yl8PyFmYgoOAx7DYoH6zs5a3MoFvQHr.jpg',
             imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
           },
           {
-            name: 'Basic Tees',
+            name: '',
             href: '/',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
+            imageSrc: 'https://www.shutterstock.com/image-photo/compliance-business-concept-businessman-offer-260nw-587628377.jpg',
             imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
           },
         ],
         sections: [
           {
-            id: 'clothing',
-            name: 'Clothing',
+            id: 'colthing',
+            name: 'Plumbers',
             items: [
-              { name: 'Tops', id:"top", href: `{women/clothing/tops}` },
-              { name: 'Dresses', id:"women_dress", href: '#' },
-              { name: 'Women Jeans', id: 'women_jeans' },
-              { name: 'Lengha Choli', id: 'lengha_choli' },
-              { name: 'Sweaters', id: 'sweater' },
-              { name: 'T-Shirts', id: 't-shirt' },
-              { name: 'Jackets', id: 'jacket' },
-              { name: 'Gouns', id: 'gouns' },
-              { name: 'Sarees', id: 'saree' },
-              { name: 'Kurtas', id: 'kurtas' },
+              { name: 'Kitchen Plumbing', id:"top", href: `{women/clothing/tops}` },
+              { name: 'Drain Cleaning', id:"women_dress", href: '#' },
+              { name: 'Water Supply', id: 'women_jeans' },
+              { name: 'Sink Installation', id: 'lengha_choli' },
+              { name: 'Fixing Water Jets', id: 'sweater' },
+              { name: 'Bathroom Fittings Service', id: 'sweater' },
+
+             
             ],
           },
           {
             id: 'accessories',
-            name: 'Accessories',
+            name: 'Home Cleaning',
             items: [
-              { name: 'Watches', id: 'watch' },
-              { name: 'Wallets', id: 'wallet' },
-              { name: 'Bags', id: 'bag' },
-              { name: 'Sunglasses', id: 'sunglasse' },
-              { name: 'Hats', id: 'hat' },
-              { name: 'Belts', id: 'belt' },
+              { name: 'Vacuming', id: 'watch' },
+              { name: 'Sweeping', id: 'wallet' },
+              { name: 'Glass Window Cleaning', id: 'bag' },
+              { name: 'Mapping', id: 'sunglasse' },
+              { name: 'Cushions', id: 'home' },
+              { name: 'Carprt Cleaning', id: 'carpet' },
             ],
           },
           {
             id: 'brands',
-            name: 'Brands',
+            name: 'Home Applicantas',
             items: [
-              { name: 'Full Nelson', id: '#' },
-              { name: 'My Way', id: '#' },
-              { name: 'Re-Arranged', id: '#' },
-              { name: 'Counterfeit', id: '#' },
-              { name: 'Significant Other', id: '#' },
+              { name: 'Tv Repair', id: '#' },
+              { name: 'Refregerator Repair', id: '#' },
+              { name: 'Water Purifier Repair', id: '#' },
+              { name: 'Stove Repair', id: '#' },
+              { name: 'Washing Machine Repair', id: '#' },
+              { name: 'Microwave Repair', id: '#' },
+            ],
+          },  
+          {
+            id: 'electricians',
+            name: 'Electricians',
+            items: [
+              { name: 'Switch and Socket', id: '#' },
+              { name: 'Fan', id: '#' },
+              { name: 'Light', id: '#' },
+              { name: 'Wiring', id: '#' },
+              { name: 'Door Bell', id: '#' },
+              { name: 'MCB & Fuse', id: '#' },
+              { name: 'Inverter & Stabilizer', id: '#' },
+              
+            ],
+          },
+
+          {
+            id: 'drivers',
+            name: 'Drivers',
+            items: [
+              { name: 'Car Driver', id: '#' },
+              { name: 'Bus Driver', id: '#' },
+              { name: 'Bike Driver', id: '#' },
+              { name: 'Tractor Driver', id: '#' },
+              
+            ],
+          },
+
+          {
+            id: 'auto-mobile',
+            name: 'Auto Mobile',
+            items: [
+              { name: 'Change Tires', id: '#' },
+              { name: 'Engine repair', id: '#' },
+              { name: 'Brakes Repair', id: '#' },
+              { name: 'Car Wash', id: '#' },
+              { name: 'Oil, Air Filters, and Fluid Change', id: '#' },
+              { name: ' Battery Test, Replacement, and Disposal', id: '#' },
+              
             ],
           },
         ],
       },
       {
         id: 'men',
-        name: 'Men',
+        name: 'Instance Services',
         featured: [
           {
-            name: 'New Arrivals',
+            name: '',
             id: '#',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
+            imageSrc: 'https://t3.ftcdn.net/jpg/01/06/12/68/360_F_106126874_6Yl8PyFmYgoOAx7DYoH6zs5a3MoFvQHr.jpg',
             imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
           },
           {
-            name: 'Artwork Tees',
+            name: '',
             id: '#',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
+            imageSrc: 'https://www.shutterstock.com/image-photo/compliance-business-concept-businessman-offer-260nw-587628377.jpg',
             imageAlt:
               'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
           },
         ],
         sections: [
           {
-            id: 'clothing',
-            name: 'Clothing',
+            id: 'plumbers',
+            name: 'Plumbers',
             items: [
-              { name: 'Mens Kurtas', id: 'mens_kurta' },
-              { name: 'Shirt', id: 'shirt' },
-              { name: 'Men Jeans', id: 'men_jeans' },
-              { name: 'Sweaters', id: '#' },
-              { name: 'T-Shirts', id: 't-shirt' },
-              { name: 'Jackets', id: '#' },
-              { name: 'Activewear', id: '#' },
+              { name: 'Kitchen Plumbing', id:"top", href: `{women/clothing/tops}` },
+              { name: 'Drain Cleaning', id:"women_dress", href: '#' },
+              { name: 'Water Supply', id: 'women_jeans' },
+              { name: 'Sink Installation', id: 'lengha_choli' },
+              { name: 'Fixing Water Jets', id: 'sweater' },
+              { name: 'Bathroom Fittings Service', id: 'sweater' },
+
+             
               
             ],
           },
           {
             id: 'accessories',
-            name: 'Accessories',
+            name: 'Electricians',
             items: [
-              { name: 'Watches', id: '#' },
-              { name: 'Wallets', id: '#' },
-              { name: 'Bags', id: '#' },
-              { name: 'Sunglasses', id: '#' },
-              { name: 'Hats', id: '#' },
-              { name: 'Belts', id: '#' },
+              { name: 'Switch and Socket', id: '#' },
+              { name: 'Fan', id: '#' },
+              { name: 'Light', id: '#' },
+              { name: 'Wiring', id: '#' },
+              { name: 'Door Bell', id: '#' },
+              { name: 'MCB & Fuse', id: '#' },
+              { name: 'Inverter & Stabilizer', id: '#' },
+              
             ],
           },
           {
             id: 'brands',
-            name: 'Brands',
+            name: 'Auto Mobile',
             items: [
-              { name: 'Re-Arranged', id: '#' },
-              { name: 'Counterfeit', id: '#' },
-              { name: 'Full Nelson', id: '#' },
-              { name: 'My Way', id: '#' },
+              { name: 'Change Tires', id: '#' },
+              { name: 'Engine repair', id: '#' },
+              { name: 'Brakes Repair', id: '#' },
+              { name: 'Car Wash', id: '#' },
+              { name: 'Oil, Air Filters, and Fluid Change', id: '#' },
+              { name: ' Battery Test, Replacement, and Disposal', id: '#' },
+              
             ],
           },
         ],
       },
     ],
     pages: [
-      { name: 'Company', id: '/' },
-      { name: 'Stores', id: '/' },
+      // { name: 'Company', id: '/' },
+      // { name: 'Stores', id: '/' },
     ],
   }
