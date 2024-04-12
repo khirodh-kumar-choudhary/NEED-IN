@@ -133,7 +133,7 @@ export const navigation = {
             ],
           },
           {
-            id: 'electricians',
+            id: 'accessories',
             name: 'Electricians',
             items: [
               { name: 'Switch and Socket', id: '#' },
@@ -147,7 +147,7 @@ export const navigation = {
             ],
           },
           {
-            id: 'auto-mobile',
+            id: 'brands',
             name: 'Auto Mobile',
             items: [
               { name: 'Change Tires', id: '#' },
