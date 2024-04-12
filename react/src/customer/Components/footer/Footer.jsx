@@ -3,7 +3,7 @@ import { Grid, Link, Typography } from '@mui/material';
 const Footer = () => {
   return (
     <Grid className='bg-black text-white mt-10 text-center' container color={'white' } sx={{ bgcolor: 'black', color: 'white', py: 3 }}>
-      <Grid  item xs={12} sm={6} md={3}>
+      {/* <Grid  item xs={12} sm={6} md={3}>
         <Typography className='pb-5' variant="h6" gutterBottom>
           Company
         </Typography>
@@ -22,8 +22,8 @@ const Footer = () => {
         <Typography variant="body2" component="p" gutterBottom>
           Partners
         </Typography>
-      </Grid>
-      <Grid item xs={12} sm={6} md={3}>
+      </Grid> */}
+      {/* <Grid item xs={12} sm={6} md={3}>
         <Typography className='pb-5' variant="h6" gutterBottom>
           Solutions
         </Typography>
@@ -67,15 +67,15 @@ const Footer = () => {
         <Typography variant="body2" component="p" gutterBottom>
           Terms
         </Typography>
-      </Grid>
+      </Grid> */}
       <Grid className='pt-20' item xs={12} >
         <Typography variant="body2" component="p" align="center">
-          &copy; 2023 My Company. All rights reserved.
+          &copy; 2024 NEEDIN. All rights reserved.
         </Typography>
         <Typography variant="body2" component="p" align="center">
-          Made with love by Me.
+          Made with love by NeedIn Team.
         </Typography>
-        <Typography variant="body2" component="p" align="center">
+        {/* <Typography variant="body2" component="p" align="center">
           Icons made by{' '}
           <Link href="https://www.freepik.com" color="inherit" underline="always">
             Freepik
@@ -84,7 +84,7 @@ const Footer = () => {
           <Link href="https://www.flaticon.com/" color="inherit" underline="always">
             www.flaticon.com
           </Link>
-        </Typography>
+        </Typography> */}
       </Grid>
     </Grid>
   );
